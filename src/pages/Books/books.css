@@ -1,0 +1,33 @@
+.books__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.books__header--title {
+  margin-bottom: 0;
+}
+
+#filter {
+  background: var(--white);
+  border-radius: var(--border_radius);
+  border: 0;
+  outline: 1px solid  var(--grey-300);;
+  color: var(--grey-800);
+  height: 2.25rem;
+  line-height: 40px;
+  padding-left: 0.5rem;
+  width: 100%;
+  max-width: 12rem;
+}
+@media (max-width: 480px) {
+  .books__header {
+    padding: 0 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  #filter {
+    max-width: 8rem;
+    height: 1.5rem;
+  }
+}
