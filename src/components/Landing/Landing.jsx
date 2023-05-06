@@ -1,4 +1,5 @@
-import BookIcon from "../assets/BookIcon";
+import "./style.css";
+import BookIcon from "../../assets/BookIcon";
 
 const Landing = () => (
   <section id="landing" className="section">

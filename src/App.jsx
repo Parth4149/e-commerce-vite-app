@@ -4,20 +4,14 @@ import { Navbar, Footer } from "./components";
 import { Home, Books, BookInfo, Cart } from "./pages";
 import { books } from "./data";
 
-const getThemeFromLocalStorage = () => {
-  let theme = localStorage.getItem("theme");
-  if (theme) {
-    theme = JSON.parse(theme);
-  } else {
-    theme = false;
-  }
-  return theme;
-};
+import {
+  getThemeFromLocalStorage,
+  getCartFromLocalStorage,
+} from "./LocalStorage";
 
 function App() {
   const [cart, setCart] = useState([]);
   const [isDark, setIsDark] = useState(getThemeFromLocalStorage());
-  // document.documentElement.classList.contains("dark-theme")
 
   const addToCart = (book) => {
     setCart([...cart, { ...book, quantity: 1 }]);
@@ -43,17 +37,6 @@ function App() {
         +item.id === +book.id ? { ...item, quantity: +quantity } : item
       ) // + convert str to number
     );
-  };
-
-  const getCartFromLocalStorage = () => {
-    let localCart = localStorage.getItem("cart");
-    if (localCart) {
-      localCart = JSON.parse(localCart);
-    } else {
-      localCart = [];
-    }
-    // console.log("localCart", localCart);
-    return localCart;
   };
 
   useEffect(() => {

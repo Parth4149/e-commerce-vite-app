@@ -59,19 +59,19 @@ h5 {
 }
 
 small,
-.s-fs {
+.fs-s {
   font-size: var(--small-text);
 }
-.es-fs {
+.fs-es {
   font-size: var(--extra-small-text);
 }
-.m-fs {
+.fs-m {
   font-size: var(--medium-text);
 }
-.em-fs {
+.fs-em {
   font-size: var(--extra-medium-text);
 }
-.l-fs {
+.fs-m {
   font-size: var(--large-text);
 }
 

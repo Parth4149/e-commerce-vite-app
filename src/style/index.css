@@ -48,39 +48,39 @@
   --orange: #fa8900;
   --bg-color: var(--grey-100);
   --text_color: var(--grey-800);
-
+  --search-bg: #ffffffc9;
+  --search-list-hover: var(--grey-200);
   --title-color: var(--grey-800);
 
   --nav-bg: var(--white);
   --nav-color: var(--primary-dark);
   --skeleton-bg: linear-gradient(to right, var(--grey-200), var(--grey-300));
   /* fonts  */
-  --small-text: .875rem;
+  --small-text: 0.875rem;
   --extra-small-text: 0.7rem;
   --medium-text: 1.5rem;
   --extra-medium-text: 1.25rem;
   --large-text: 2rem;
   /* rest of the vars */
 
-  --border_radius: .25rem;
+  --border_radius: 0.25rem;
   --letter_spacing: 1px;
-  --small-letter_spacing: .5px;
-  --transition: .3s ease-in-out all;
+  --small-letter_spacing: 0.5px;
+  --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
   --fixed-width: 600px;
   --view-width: 90vw;
 
   /* box shadow*/
-  --movie__shadow: hsl(240, 3%, 91%);
-  --book-hover-shadow: hsla(240, 3%, 12%, .1);
-  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
-  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, .1),
-    0 2px 4px -1px rgba(0, 0, 0, .06);
-  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, .1),
-    0 4px 6px -2px rgba(0, 0, 0, .05);
-  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, .1),
-    0 10px 10px -5px rgba(0, 0, 0, .04);
-  --nav-shadow: 0 2px 2px 0 rgba(0, 0, 0, .05);
+  --book-hover-shadow: hsla(240, 3%, 12%, 0.1);
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --nav-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
   --ff-primary: "Lato", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
 }
@@ -92,19 +92,23 @@
 
   --nav-bg: var(--grey-900);
   --nav-color: var(--grey-100);
-  --nav-shadow: 0 2px 2px 0 rgba(251, 251, 251, .05);
-
+  --nav-shadow: 0 2px 2px 0 rgba(251, 251, 251, 0.05);
+  --search-bg: #334155e7;
+  --search-list-hover: var(--grey-600);
   --title-color: var(--grey-100);
   --text_color: var(--grey-300);
 
-  --book-hover-shadow: hsla(240, 4%, 91%, .1);
+  --book-hover-shadow: hsla(240, 4%, 91%, 0.1);
   --skeleton-bg: linear-gradient(to right, #cbd5e196, #64748b91);
 
-  --shadow-1: 0 1px 3px 0 rgba(255, 255, 255, .1), 0 1px 2px 0 rgba(255, 255, 255, .1);
-  --shadow-2: 0 4px 6px -1px rgba(185, 193, 250, .1),
-    0 2px 4px -1px rgba(185, 193, 250, .1);
-  --shadow-3: 0 10px 15px -3px rgba(172, 172, 251, .1),
-    0 4px 6px -2px rgba(172, 172, 251, .1);
+  --shadow-1: 0 1px 3px 0 rgba(255, 255, 255, 0.1),
+    0 1px 2px 0 rgba(255, 255, 255, 0.1);
+  --shadow-2: 0 4px 6px -1px rgba(185, 193, 250, 0.1),
+    0 2px 4px -1px rgba(185, 193, 250, 0.1);
+  --shadow-3: 0 10px 15px -3px rgba(172, 172, 251, 0.1),
+    0 4px 6px -2px rgba(172, 172, 251, 0.1);
+  --shadow-4: 0 20px 25px -5px rgba(172, 172, 251, 0.1),
+    0 10px 10px -5px rgba(172, 172, 251, 0.1);
 }
 
 .App {

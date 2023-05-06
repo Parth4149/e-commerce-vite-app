@@ -1,4 +1,4 @@
-const BookLogo = () => {
+const Logo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -22,4 +22,4 @@ const BookLogo = () => {
   );
 };
 
-export default BookLogo;
+export default Logo;

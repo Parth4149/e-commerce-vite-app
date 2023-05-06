@@ -10,9 +10,10 @@
   align-items: center;
 }
 .book__link {
+  all: unset;
   color: var(--text_color);
   display: flex;
-  align-items: center;
+  align-items: center;  
 }
 .book__selected {
   display: flex;

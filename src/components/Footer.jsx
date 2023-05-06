@@ -1,4 +1,4 @@
-import BookLogo from "../assets/BookLogo";
+import Logo from "../assets/Logo";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -15,7 +15,7 @@ const Footer = () => {
         <Link to="/">
           {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
           <figure className="footer__logo" onClick={() => scrollToTop()}>
-            <BookLogo />
+            <Logo />
           </figure>
         </Link>
         <div className="footer__list">

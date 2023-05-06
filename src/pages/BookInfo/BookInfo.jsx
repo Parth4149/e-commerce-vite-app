@@ -1,5 +1,5 @@
 import "./BookInfo.css";
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useNavigate } from "react-router-dom";
 import { HiArrowLeft } from "react-icons/hi";
 import { Rating, Price, Book } from "../../components/ui";
 
@@ -8,8 +8,9 @@ import { Rating, Price, Book } from "../../components/ui";
 
 const BookInfo = ({ props }) => {
   const { books, addToCart, cart } = props;
-  
+
   const { id } = useParams(); // return an object(key/value)
+  const navigate = useNavigate();
   // console.log(id);
   const book = books.find((book) => book.id === +id); // + convert str to number
   // console.log(book);
@@ -28,9 +29,9 @@ const BookInfo = ({ props }) => {
       <div className="books__container">
         <div className="row">
           <header className="book__selected--top">
-            <Link to="/books" className="book__link">
+            <button onClick={() => navigate(-1)} className="book__link">
               <HiArrowLeft />
-            </Link>
+            </button>
             <Link to="/books" className="book__link">
               <h3 className="book__selected--title--top">Books</h3>
             </Link>
