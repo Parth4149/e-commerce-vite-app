@@ -46,10 +46,8 @@
   border-bottom-right-radius: var(--border_radius);
   border-bottom-left-radius: var(--border_radius);
 }
-.search__container:not(:focus-within) {
-  .search-list {
-    display: none;
-  }
+.search__container:not(:focus-within) .search-list {
+  display: none;
 }
 .search-list li {
   display: flex;
