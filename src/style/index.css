@@ -48,8 +48,9 @@
   --orange: #fa8900;
   --bg-color: var(--grey-100);
   --text_color: var(--grey-800);
-  --search-bg: #ffffffc9;
+  --search-bg: var(--white);
   --search-list-hover: var(--grey-200);
+  --search-outline: var(--grey-300);
   --title-color: var(--grey-800);
 
   --nav-bg: var(--white);
@@ -93,8 +94,9 @@
   --nav-bg: var(--grey-900);
   --nav-color: var(--grey-100);
   --nav-shadow: 0 2px 2px 0 rgba(251, 251, 251, 0.05);
-  --search-bg: #334155e7;
+  --search-bg: var(--grey-700);
   --search-list-hover: var(--grey-600);
+  --search-outline: var(--grey-600);
   --title-color: var(--grey-100);
   --text_color: var(--grey-300);
 

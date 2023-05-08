@@ -9,7 +9,7 @@ import { FiMenu } from "react-icons/fi";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { books } from "../../data";
 
-import Search from "../ui/Search";
+import Search from "../ui/Search/Search";
 
 const Navbar = ({ numberOfItems, isDark, setIsDark }) => {
   const [query, setQuery] = useState("");
@@ -47,7 +47,7 @@ const Navbar = ({ numberOfItems, isDark, setIsDark }) => {
   return (
     <nav>
       <div className="nav__container">
-        <Link to="/">
+        <Link to="/" className="logo__container">
           <Logo />
         </Link>
         <Search query={query} setQuery={setQuery} books={books} />

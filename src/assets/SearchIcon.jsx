@@ -3,7 +3,7 @@ const SearchIcon = () => {
     <svg
       width="1em"
       height="1em"
-      className="mr-3 align-middle text-gray-30 shrink-0 group-betterhover:hover:text-gray-70"
+      className="search-icon"
       viewBox="0 0 20 20"
     >
       <path
